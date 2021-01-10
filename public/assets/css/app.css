@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+@media (min-width: 992px) {
+  .content-element #review-movie-img img { height: 300px; width: auto; }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .content-element iframe { zoom: 1.5; }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+  .content-element { padding: 0px; }
+  .content-element #info-manager label { padding-left: 0px; }
+}
+
+body { min-width: 512px; }
+
+a { text-decoration: none !important; }
+
+nav { font-family: "Gugi", cursive; }
+
+nav #banner {
+  color: #ff4411;
+  margin-top: 8px;
+}
+
+nav #user-button {
+  background: #292b2c;
+  padding: 10px 14px 10px 14px;
+}
+
+nav #user-button:hover {
+  background: #101112;
+  transition: all 0.3 ease;
+}
+
+nav #user-button:active { background: black; }
+
+nav #logout-button {
+  background: #292b2c;
+  padding: 10px 12px 10px 12px;
+}
+
+nav #logout-button:hover {
+  background: #101112;
+  transition: all 0.3 ease;
+}
+
+nav #logout-button:active { background: black; }
+
+nav #user-icon, nav #logout-icon { color: white; }
+
+#sidebar {
+  width: 100%;
+  background: #292b2c;
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+#sidebar .sidebar-header { padding: 20px; }
+
+#sidebar ul { width: 100%; }
+
+#sidebar ul li a {
+  padding: 10px 0px 10px 20px;
+  font-size: 1em;
+  color: white;
+  display: block;
+}
+
+#sidebar ul li a:hover {
+  color: black;
+  background: #fff;
+}
+
+.content-element {
+  font-family: "Kanit", sans-serif;
+  margin: 25px auto 25px auto;
+}
+
+.content-element img { width: 100%; height: auto; }
+
+.content-element #info-manager label { margin: 6px 0px 0px 0px; }
+
+.content-element #md-movie-detail p { text-indent: 50px; margin-bottom: 5px; }
+
+.content-element .review-user-image { width: 75px; height: 75px; object-fit: cover; }
+
+.content-element button.user-response { width: 45px; height: 45px; }
+
+.content-element iframe {
+  width: 100%; height: 300px;
+  margin-bottom: 10px;
+}
+
+.star-rating > input { display: none; }
+
+.star-rating > label:before {
+  content: "\f005";
+  margin: 2.5px;
+  font-size: 1.5em;
+  font-family: 'FontAwesome';
+}
+
+.star-rating > label { color: #555555; }
+
+.star-rating > input:checked ~ label { color: #ffca08; }
+
+.star-rating > input:hover ~ label { color: #ffca08; }
+
+table .user-table-header, table .user-table-row { font-size: 15px; }
+
+table .user-table-row a { font-size: 1.5em; }
+
+table .user-table-row td { vertical-align: middle; }

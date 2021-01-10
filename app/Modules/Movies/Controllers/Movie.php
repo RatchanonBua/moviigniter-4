@@ -4,7 +4,7 @@
 
   class Movie extends Controller {
     public function index() {
-      echo "Movies";
+      return view('\Modules\Movies\Views\index');
     }
   }
 ?>
