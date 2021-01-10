@@ -1,3 +1,6 @@
 <?php
-  $routes->get('/movies', '\Modules\Movies\Controllers\Movie::index');
+  $routes->group('movie', ['namespace' => '\Modules\Movies\Controllers'], function($routes) {
+    $routes->get('/', 'Movie::index');
+    $routes->get('review', 'Movie::review');
+  });
 ?>
