@@ -116,3 +116,5 @@ table .user-table-header, table .user-table-row { font-size: 15px; }
 table .user-table-row a { font-size: 1.5em; }
 
 table .user-table-row td { vertical-align: middle; }
+
+#movie-list, #movie-card { padding: 0 0.5rem; }

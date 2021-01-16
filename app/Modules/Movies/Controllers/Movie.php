@@ -13,7 +13,7 @@
         $data['movie_id'] = $movie_id;
         return view('\Modules\Movies\Views\review', $data);
       } else {
-        return redirect()->route('movie');;
+        return redirect()->route('movie');
       }
     }
   }

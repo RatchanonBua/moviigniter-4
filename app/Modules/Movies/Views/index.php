@@ -38,8 +38,8 @@
         <?= $this->include('\Modules\Movies\Views\_searchbar'); ?>
         <!-- Movie List -->
         <div class="row" id="movie-list">
-          <?php for ($item = 0; $item < 9; $item++): ?>
-            <div class="col-md-4 col-6 mt-3">
+          <?php for ($item = 0; $item < 12; $item++): ?>
+            <div class="col-md-4 col-6 mt-3" id="movie-card">
               <div class="card h-100">
                 <a href="#"><img class="card-img-top" src="<?php echo prep_url('http://placehold.it/400x500'); ?>"></a>
                 <div class="card-body"><h6>EXAMPLE</h6></div>
